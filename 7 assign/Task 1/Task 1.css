@@ -1,0 +1,49 @@
+.d {
+    background-color: lightgray;
+    width: 800px;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+.d1 {
+    background-color: lightslategray;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: 15px;
+text-align: center;
+    width: calc((100% - 30px) / 1);;
+    float:left; 
+}
+.d3 {
+    background-color: lightslategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+text-align: center;
+ width: calc((100% - 60px) / 3);
+ margin-top: 15px;
+ margin-left: 15px;
+ float:left; 
+}
+.d2 {
+    background-color: lightslategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+text-align: center;
+ width: calc((100% - 45px) / 2);
+ margin-top: 15px;
+ margin-left: 15px;
+ float:left; 
+}
+.d4 {
+    background-color: lightslategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+text-align: center;
+ width: calc((100% - 75px) / 4);
+ margin-top: 15px;
+ margin-left: 15px;
+ float:left; 
+}
+.clear {
+    clear: both; 
+}

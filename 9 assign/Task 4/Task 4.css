@@ -1,0 +1,21 @@
+p {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    background-color: lightgrey;
+    counter-increment: member-counter;
+    text-align: center;
+}
+p::after {
+    content: counter(member-counter);
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -30px;
+    left: 0px;
+}

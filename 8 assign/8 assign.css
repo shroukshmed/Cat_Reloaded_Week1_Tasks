@@ -1,0 +1,133 @@
+.green {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: darkgreen;
+    position: absolute;
+    z-index: 3;
+    left: 40px;
+    top: 40px;
+    
+   
+}
+.red {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: darkred;
+    position: absolute;
+    z-index: 4;
+    left: 60px;
+   top: 60px;
+   
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    position: absolute;
+    z-index: 2;
+   left: 20px;
+   top: 20px;
+}
+.black {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    position: absolute;
+    
+}
+.d1 {
+    width: 400px;
+    padding: 30px;
+    margin: 50px;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+    background-color: lightgray;
+    border-color: red lightskyblue;
+    border-style: solid;
+    border-width: 5px;
+}
+.top-left {
+    padding: 15px;
+    background-color: lightskyblue;
+    border-color: lightskyblue red lightskyblue lightskyblue;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    top: -135px;
+    left: -355px;
+}
+.bottom-left {
+    padding: 15px;
+    background-color: lightskyblue;
+    border-color: lightskyblue red lightskyblue lightskyblue;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    bottom: -65px;
+    left: -407px;
+}
+.top-right {
+    padding: 15px;
+    background-color: lightskyblue;
+    border-color: lightskyblue lightskyblue lightskyblue  red;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    top: -155px;
+    right: -260px;
+}
+.bottom-right {
+    padding: 15px;
+    background-color: lightskyblue;
+    border-color: lightskyblue  lightskyblue lightskyblue red; 
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    bottom: -40px;
+    right: -207px;
+}
+.l1 {
+    width: 400px;
+}
+.l2{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+}
+.lh{
+    list-style-type: decimal;
+}
+.h1 {
+background-color: white;
+padding: 5px;
+margin:5px;
+}
+.lc{
+    list-style-type:upper-roman;
+}
+.lj {
+    list-style-position: inside;
+}
+table {
+    width: 100%;
+    background-color: lightgrey;
+}
+table th {
+    background-color: darkgray;
+
+}
+ table td{
+    padding: 15px;
+    border: 2px solid white;
+    border-spacing: 1px;
+}

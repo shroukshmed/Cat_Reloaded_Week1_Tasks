@@ -1,0 +1,22 @@
+.parent {
+    background-color: lightgray;
+    text-align: center;
+    margin: 100px;
+    width: 500px;
+    height: 200px;
+    transition: all 1s 0 linear  ;
+}
+.parent:hover {
+    margin-top:20px ;
+}
+.child {
+    background-color: gray;
+    text-align: center;
+    margin: 50px;
+    width: 400px;
+    height: 50px;
+    transition: all 0 0.5s linear  ;
+}
+.child:hover {
+    margin-top: 20px;
+}

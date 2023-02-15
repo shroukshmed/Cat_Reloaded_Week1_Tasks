@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    color: orangered;
+    box-shadow:10px 0 0 0 lightskyblue outset, 0 10px 0 0 orangered outset;
+}

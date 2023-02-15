@@ -1,0 +1,36 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    background-color: lightgrey;
+    color: white;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-content: start;
+    
+}
+div {
+    width: calc(64% / 4);
+    height: calc(94% / 2);
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.four {
+    order: -1;
+    background-color:blueviolet;
+    align-self: flex-end;
+}
+.one {
+    background-color: orangered;
+}
+.two {
+    background-color: lightgreen;
+    align-self: flex-end;
+}
+.three {
+    background-color: brown;
+}

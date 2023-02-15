@@ -1,0 +1,38 @@
+.parent {
+    width: 550px;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.child {
+    background-color: lightgrey;
+    padding: 40px;
+    margin: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.d1 {
+    color: white;
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 6px;
+}
+.d2 {
+    color: black;
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    text-align: center;
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.page {
+    background-color: rgb(245, 243, 243);
+    display: flex;
+    margin: auto;
+    position: relative;
+    flex-flow: wrap row;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: lightgrey;
+    width: 80px;
+    height: 30px;
+}

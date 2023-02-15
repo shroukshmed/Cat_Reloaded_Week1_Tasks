@@ -1,0 +1,44 @@
+.one,
+.two,
+.three {
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(172, 172, 172);
+    outline: 9px solid black;
+}
+.one {
+    border: 10px solid red;
+}
+.two {
+    border-color: blue green;
+    border-width: 10px;
+    border-style: solid;
+}
+.three {
+    border-color: red green blue yellow;
+    border-width: 10px;
+    border-style: dashed;
+}
+.bn1,
+.bn2,
+.bn3 {
+display: block;
+background-color: rgb(172, 172, 172);
+outline: 10px solid rgb(172, 172, 172);
+margin: 30px;
+padding: 20px;
+}
+.bn1 {
+    border-style:solid;
+    border-width: 10px;
+    border-color: rgb(172, 172, 172) rgb(172, 172, 172) rgb(172, 172, 172) pink;
+}
+.bn2{
+    visibility: hidden;
+}
+.bn3 {
+    border-style:solid;
+    border-width: 10px;
+    border-color: rgb(172, 172, 172) rgb(172, 172, 172) rgb(172, 172, 172) green;
+}

@@ -1,0 +1,58 @@
+h1 {
+    color: black;
+    text-shadow: 1px 0 0 red ,  2px 1px 0 lightskyblue ,3px 2px 0 purple;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.one {
+    text-transform: uppercase;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.two {
+    text-transform: capitalize;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.three {
+    text-transform:lowercase;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.b1 {
+    color: black;
+    background-color: rgb(206, 204, 204);
+    width: 400px;
+    padding: 20px;
+    line-height: 1.2;
+}
+.b2 {
+    color: black;
+    background-color: rgb(206, 204, 204);
+    width: 400px;
+    padding: 20px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.b3 {
+    color: black;
+    background-color: rgb(206, 204, 204);
+    width: 400px;
+    padding: 20px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a {
+    background-color: rgb(71, 116, 101);
+    color: white;
+    padding: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 5px solid rgb(34, 54, 48);
+}

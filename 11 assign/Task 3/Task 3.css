@@ -1,0 +1,24 @@
+/*:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+  */
+  div {
+    width: 400px;
+    height: 20px;
+    padding: var(--mainPadding);
+    margin: 10px;
+    border: 3px solid var(--mainColor);
+    text-align:left;
+    color: var(--mainColor);
+  }
+  div {
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    text-align:left;
+    color: red;
+  }
+  

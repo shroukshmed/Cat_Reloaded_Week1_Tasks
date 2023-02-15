@@ -1,0 +1,28 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    counter-increment: member-counter;
+    background-color: lightgray;
+    box-shadow:10px 0 0 0 darkmagenta outset, 0 10px 0 0 lightskyblue outset;
+}
+div::after {
+content: counter(member-counter);
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -40px;
+    left: 55px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
